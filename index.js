@@ -21,8 +21,8 @@ console.log(totalSum);
 
 const numbersss = [5, 10 ,15 ,20, 25];
 
-for (i = 0; i < numbersss.length; i++) {
-    console.log(numbersss[i]);
+for (let j = 0; j < numbersss.length; j++) {
+    console.log(numbersss[j]);
 }
 
 const stringss = [
@@ -33,27 +33,27 @@ const stringss = [
 "Nobejos"
 ];
 
-for (i = 0; i < stringss.length; i++) {
-    if (stringss[i].length > 5) {
-        console.log(stringss[i]);
+for (let k = 0; k < stringss.length; k++) {
+    if (stringss[k].length > 5) {
+        console.log(stringss[k]);
     }
 }
 
 const numberssss = [1, 2, 3, 6, 100, 101, 55, 1000, 1111, 2000];
 let maxNumber = numberssss[0];
 
-for (i = 1; i < numberssss.length; i++) {
-    if (numberssss[i] > maxNumber) {
-        maxNumber = numberssss[i];
+for (let l = 1; l < numberssss.length; l++) {
+    if (numberssss[l] > maxNumber) {
+        maxNumber = numberssss[l];
     }
 }
-console.log("Найвище число в масиві =>", maxNumber);
+console.log("Найбільше число в масиві =>", maxNumber);
 
 const numbersssss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const evenNumbers = [];
-for (i = 0; i < numbersssss.length; i++) {
-    if (numbersssss[i] % 2 === 0) {
-      evenNumbers.push(numbersssss[i]);
+for (let m = 0; m < numbersssss.length; m++) {
+    if (numbersssss[m] % 2 === 0) {
+      evenNumbers.push(numbersssss[m]);
     }
   }
 console.log("Парні числа =>", evenNumbers);
